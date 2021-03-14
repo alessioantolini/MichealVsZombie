@@ -84,7 +84,7 @@ script = ExtResource( 2 )
 position = Vector2( 18.42, 4.25076 )
 frames = SubResource( 1 )
 animation = "dead"
-frame = 11
+frame = 4
 playing = true
 
 [node name="collisionZombie" type="CollisionShape2D" parent="."]
