@@ -1288,7 +1288,7 @@ end_node = "dead"
 [sub_resource type="AnimationNodeStateMachinePlayback" id=30]
 
 [sub_resource type="RectangleShape2D" id=31]
-extents = Vector2( 115.599, 238.913 )
+extents = Vector2( 132.535, 238.142 )
 
 [node name="MichealNinja" type="KinematicBody2D"]
 position = Vector2( 516.27, 293.74 )
@@ -1302,7 +1302,7 @@ region_rect = Rect2( -16.6797, -21.14, 231.42, 383.04 )
 
 [node name="testa" type="Sprite" parent="micheal"]
 position = Vector2( 12.2464, -25.7596 )
-rotation = 0.0596493
+rotation = 0.0558144
 scale = Vector2( 1.14852, 1.14341 )
 z_index = -3
 texture = ExtResource( 64 )
@@ -1319,31 +1319,31 @@ region_rect = Rect2( -1.54364, 414.66, 234.923, 230.995 )
 
 [node name="braccioSX" type="Sprite" parent="micheal"]
 position = Vector2( 100.986, 241.001 )
-rotation = 2.58543
+rotation = 2.62122
 z_index = -10
 texture = ExtResource( 64 )
 region_enabled = true
 region_rect = Rect2( 294.787, 264.839, 93.2517, 130.552 )
 
 [node name="braccioDX" type="Sprite" parent="micheal"]
-position = Vector2( -51.0469, 235.067 )
-rotation = 2.58535
+position = Vector2( -52.8754, 235.829 )
+rotation = 2.61847
 z_index = -1
 texture = ExtResource( 64 )
 region_enabled = true
 region_rect = Rect2( 294.787, 264.839, 93.2517, 130.552 )
 
 [node name="avambraccioSX" type="Sprite" parent="micheal"]
-position = Vector2( 161.818, 287.366 )
-rotation = -1.29206
+position = Vector2( 160.446, 289.956 )
+rotation = -1.2422
 z_index = -6
 texture = ExtResource( 64 )
 region_enabled = true
 region_rect = Rect2( 294.787, 264.839, 93.2517, 130.552 )
 
 [node name="avambraccioDX" type="Sprite" parent="micheal"]
-position = Vector2( 8.22483, 282.499 )
-rotation = -1.29206
+position = Vector2( 4.56769, 285.547 )
+rotation = -1.2422
 z_index = -2
 texture = ExtResource( 64 )
 region_enabled = true
@@ -1402,11 +1402,11 @@ active = true
 parameters/playback = SubResource( 30 )
 
 [node name="collisionMichealNinja" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2( 3.19543, -1.59769 )
 shape = SubResource( 31 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 2, -2 )
 current = true
 zoom = Vector2( 2, 2 )
 drag_margin_h_enabled = true
